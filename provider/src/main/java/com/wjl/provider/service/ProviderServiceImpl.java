@@ -2,7 +2,6 @@ package com.wjl.provider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.wjl.common.service.ProviderService;
-import org.springframework.stereotype.Component;
 
 /**
  * @author: kevin
@@ -10,7 +9,6 @@ import org.springframework.stereotype.Component;
  * Description:
  */
 @Service
-@Component
 public class ProviderServiceImpl implements ProviderService {
 
 	@Override
